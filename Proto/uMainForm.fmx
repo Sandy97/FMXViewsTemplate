@@ -1,0 +1,139 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'MainFrm'
+  ClientHeight = 555
+  ClientWidth = 345
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object layContent: TLayout
+    Align = Client
+    Size.Width = 345.000000000000000000
+    Size.Height = 515.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object tbViews: TTabControl
+      Align = Client
+      Size.Width = 345.000000000000000000
+      Size.Height = 515.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 2
+      TabOrder = 0
+      TabPosition = Dots
+      Sizes = (
+        345s
+        515s
+        345s
+        515s
+        345s
+        515s)
+      object tabStart: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'tabStart'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+      end
+      object tabEnter: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'tabEnter'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+      end
+      object tabHistory: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'tabHistory'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+      end
+    end
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 345.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+    object SpeedButton2: TSpeedButton
+      Action = PreviousTabAction1
+      Align = Right
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 265.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'arrowlefttoolbutton'
+    end
+    object SpeedButton3: TSpeedButton
+      Action = NextTabAction1
+      Align = Right
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 305.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'arrowrighttoolbutton'
+    end
+  end
+  object mwSettings: TMultiView
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 250.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 515.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 0
+  end
+  object ActionList1: TActionList
+    Left = 56
+    Top = 448
+    object actChangeTab: TChangeTabAction
+      Category = 'Tab'
+    end
+    object NextTabAction1: TNextTabAction
+      Category = 'Tab'
+      TabControl = tbViews
+    end
+    object PreviousTabAction1: TPreviousTabAction
+      Category = 'Tab'
+      TabControl = tbViews
+    end
+  end
+end

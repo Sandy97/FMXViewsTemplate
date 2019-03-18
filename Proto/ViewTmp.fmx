@@ -1,0 +1,36 @@
+object frm: Tfrm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 496
+  ClientWidth = 333
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lytContents: TLayout
+    Align = Contents
+    Size.Width = 333.000000000000000000
+    Size.Height = 496.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle1: TRectangle
+      Position.X = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 297.000000000000000000
+      Size.Height = 457.000000000000000000
+      Size.PlatformDefault = False
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 297.000000000000000000
+        Size.Height = 457.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 80.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Frm'
+        TabOrder = 0
+      end
+    end
+  end
+end

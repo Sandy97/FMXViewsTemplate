@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.407,C:\__RADDeveloping\Studio\20\ADLogProto\FMXViewsTemplate.dproj=C:\__RADDeveloping\Studio\20\ADLogProto\ADLog1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,=C:\__RADDeveloping\Studio\20\ADLog\FormViewTypes.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,=C:\__RADDeveloping\Studio\20\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.823,C:\__RADDeveloping\Studio\20\ADLogProto\LogView.pas=C:\__RADDeveloping\Studio\20\ADLogProto\ViewTmp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.585,=emsserverapi.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.703,C:\__RADDeveloping\Studio\20\ADLog\Unit1.fmx=C:\__RADDeveloping\Studio\20\ADLog\uMainForm.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,C:\__RADDeveloping\Studio\20\test1\Unit2.fmx=C:\__RADDeveloping\Studio\20\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.362,=C:\__RADDeveloping\Studio\20\ADLog\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.703,C:\__RADDeveloping\Studio\20\ADLog\Unit1.pas=C:\__RADDeveloping\Studio\20\ADLog\uMainForm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.185,C:\__RADDeveloping\Studio\20\ADLogProto\StatsView.pas=C:\__RADDeveloping\Studio\20\ADLogProto\ViewTmp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.338,=C:\__RADDeveloping\Studio\20\ADLog\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.707,=C:\__RADDeveloping\Studio\20\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.527,C:\__RADDeveloping\Studio\20\ADLog\uADFrm.pas=C:\__RADDeveloping\Studio\20\test1\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.845,C:\__RADDeveloping\Studio\20\ADLog\Unit1.pas=C:\__RADDeveloping\Studio\20\ADLog\uAppData.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.185,C:\__RADDeveloping\Studio\20\ADLogProto\StatsView.fmx=C:\__RADDeveloping\Studio\20\ADLogProto\ViewTmp.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,=C:\__RADDeveloping\Studio\20\ADLog\ApplicationViewTypes.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.713,C:\__RADDeveloping\Studio\20\ADLogProto\uADFrm.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.924,C:\__RADDeveloping\Studio\20\ADLogProto\StartupView.fmx=C:\__RADDeveloping\Studio\20\ADLogProto\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.021,C:\__RADDeveloping\Studio\20\ADLog\ApplicationViewTypes.pas=C:\__RADDeveloping\Studio\20\ADLog\AppViewTypes.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.527,C:\__RADDeveloping\Studio\20\ADLog\uADFrm.fmx=C:\__RADDeveloping\Studio\20\test1\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.823,C:\__RADDeveloping\Studio\20\ADLogProto\LogView.fmx=C:\__RADDeveloping\Studio\20\ADLogProto\ViewTmp.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.567,=C:\__RADDeveloping\Studio\20\ADLogProto\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.208,C:\__RADDeveloping\Studio\20\ADLog1\ADLog.dproj=C:\__RADDeveloping\Studio\20\ADLog1\ADLog1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.924,C:\__RADDeveloping\Studio\20\ADLogProto\StartupView.pas=C:\__RADDeveloping\Studio\20\ADLogProto\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,C:\__RADDeveloping\Studio\20\test1\Unit2.pas=C:\__RADDeveloping\Studio\20\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.640,=C:\__RADDeveloping\Studio\20\ADLogProto\ViewTmp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,C:\__RADDeveloping\Studio\20\ADLog\ADLog.dproj=C:\__RADDeveloping\Studio\20\test1\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.691,C:\__RADDeveloping\Studio\20\test1\Project2.dproj=C:\__RADDeveloping\Studio\20\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.152,=C:\__RADDeveloping\Studio\20\ADLogProto\ViewTmp.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services-ads-7.0.0.dex.jar"/>
+    <File Path="google-play-services-analytics-7.0.0.dex.jar"/>
+    <File Path="google-play-services-base-7.0.0.dex.jar"/>
+    <File Path="google-play-services-gcm-7.0.0.dex.jar"/>
+    <File Path="google-play-services-identity-7.0.0.dex.jar"/>
+    <File Path="google-play-services-maps-7.0.0.dex.jar"/>
+    <File Path="google-play-services-panorama-7.0.0.dex.jar"/>
+    <File Path="google-play-services-plus-7.0.0.dex.jar"/>
+    <File Path="google-play-services-wallet-7.0.0.dex.jar"/>
+    <File Path="uAppData.pas"/>
+    <File Path="uMainForm.pas"/>
+    <File Path="uMainForm.fmx"/>
+    <File Path="AppViewTypes.pas"/>
+    <File Path="FormViewTypes.pas"/>
+    <File Path="StartupView.pas"/>
+    <File Path="StartupView.fmx"/>
+    <File Path="LogView.pas"/>
+    <File Path="LogView.fmx"/>
+    <File Path="StatsView.pas"/>
+    <File Path="StatsView.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>
